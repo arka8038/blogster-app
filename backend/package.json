@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@arka8038/blogster-common": "^1.2.0",
+    "@prisma/client": "^5.14.0",
+    "@prisma/extension-accelerate": "^1.0.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "hono": "^4.3.6",
+    "prisma": "^5.14.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240403.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/bcryptjs": "^2.4.6",
+    "wrangler": "^3.47.0"
+  }
+}
