@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@arka8038/blogster-common": "^1.2.0",
+    "axios": "^1.7.2",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
